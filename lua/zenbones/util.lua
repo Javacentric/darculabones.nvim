@@ -78,7 +78,7 @@ function M.palette_extend(p, base_bg)
 	elseif base_bg == "dark" then
 		-- default
 		p = vim.tbl_extend("keep", p, {
-			bg = hsluv(39, 12, 9), -- sand
+			bg = hsluv "#2B2B2B",
 			fg = hsluv(230, 10, 76), -- stone
 			rose = hsluv(6, 62, 60),
 			leaf = hsluv(111, 47, 61),
