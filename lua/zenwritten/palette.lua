@@ -12,7 +12,7 @@ M.light = util.palette_extend({
 --	bg = hsluv(0, 0, 9), -- sand
 
 M.dark = util.palette_extend({
-	bg = hsluv(43, 43, 43), -- (#2b2b2b=darcula)
+	bg = hsluv(0, 0, 17), -- (#2b2b2b=darcula)
 	fg = hsluv(0, 0, 76), -- stone
 }, "dark")
 
