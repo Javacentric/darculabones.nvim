@@ -9,8 +9,10 @@ M.light = util.palette_extend({
 	fg = hsluv(0, 0, 22), -- stone
 }, "light")
 
+--	bg = hsluv(0, 0, 9), -- sand
+
 M.dark = util.palette_extend({
-	bg = hsluv(0, 0, 9), -- sand
+	bg = hsluv(255, 255, 255), -- sand
 	fg = hsluv(0, 0, 76), -- stone
 }, "dark")
 
